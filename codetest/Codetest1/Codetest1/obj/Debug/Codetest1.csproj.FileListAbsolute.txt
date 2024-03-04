@@ -1,0 +1,7 @@
+C:\saidivyasree\infinite\training\codetest\Codetest1\Codetest1\bin\Debug\Codetest1.exe.config
+C:\saidivyasree\infinite\training\codetest\Codetest1\Codetest1\bin\Debug\Codetest1.exe
+C:\saidivyasree\infinite\training\codetest\Codetest1\Codetest1\bin\Debug\Codetest1.pdb
+C:\saidivyasree\infinite\training\codetest\Codetest1\Codetest1\obj\Debug\Codetest1.csproj.AssemblyReference.cache
+C:\saidivyasree\infinite\training\codetest\Codetest1\Codetest1\obj\Debug\Codetest1.csproj.CoreCompileInputs.cache
+C:\saidivyasree\infinite\training\codetest\Codetest1\Codetest1\obj\Debug\Codetest1.exe
+C:\saidivyasree\infinite\training\codetest\Codetest1\Codetest1\obj\Debug\Codetest1.pdb
