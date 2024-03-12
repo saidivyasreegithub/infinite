@@ -1,0 +1,7 @@
+C:\saidivyasree\infinite\training\C#\Assignment\Assignment05\Assignment05\obj\Debug\Assignment05.csproj.AssemblyReference.cache
+C:\saidivyasree\infinite\training\C#\Assignment\Assignment05\Assignment05\obj\Debug\Assignment05.csproj.CoreCompileInputs.cache
+C:\saidivyasree\infinite\training\C#\Assignment\Assignment05\Assignment05\bin\Debug\Assignment05.exe.config
+C:\saidivyasree\infinite\training\C#\Assignment\Assignment05\Assignment05\bin\Debug\Assignment05.exe
+C:\saidivyasree\infinite\training\C#\Assignment\Assignment05\Assignment05\bin\Debug\Assignment05.pdb
+C:\saidivyasree\infinite\training\C#\Assignment\Assignment05\Assignment05\obj\Debug\Assignment05.exe
+C:\saidivyasree\infinite\training\C#\Assignment\Assignment05\Assignment05\obj\Debug\Assignment05.pdb

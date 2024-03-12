@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D06F0B35-FDC2-4A15-8F05-3B1A8EF34710}</ProjectGuid>
+    <ProjectGuid>{B2B62352-6150-4391-827C-69CEF2F891C1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Assignment04</RootNamespace>
-    <AssemblyName>Assignment04</AssemblyName>
+    <RootNamespace>Assignment05</RootNamespace>
+    <AssemblyName>Assignment05</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConcessionLibrary.Program</StartupObject>
+    <StartupObject>Assignment05.Solution1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,19 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Books.cs" />
+    <Compile Include="Box.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReturnWords.cs" />
-    <Compile Include="SquareOfNumbers.cs" />
+    <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Concession\Concession.csproj">
-      <Project>{4e03db82-b59e-4660-8c0c-f560ba9513f7}</Project>
-      <Name>Concession</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

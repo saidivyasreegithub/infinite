@@ -5,3 +5,6 @@ C:\saidivyasree\infinite\training\C#\Assignment\Assignment04\Assignment04\obj\De
 C:\saidivyasree\infinite\training\C#\Assignment\Assignment04\Assignment04\obj\Debug\Assignment04.csproj.CoreCompileInputs.cache
 C:\saidivyasree\infinite\training\C#\Assignment\Assignment04\Assignment04\obj\Debug\Assignment04.exe
 C:\saidivyasree\infinite\training\C#\Assignment\Assignment04\Assignment04\obj\Debug\Assignment04.pdb
+C:\saidivyasree\infinite\training\C#\Assignment\Assignment04\Assignment04\bin\Debug\Concession.dll
+C:\saidivyasree\infinite\training\C#\Assignment\Assignment04\Assignment04\bin\Debug\Concession.pdb
+C:\saidivyasree\infinite\training\C#\Assignment\Assignment04\Assignment04\obj\Debug\Assignment04.csproj.CopyComplete
