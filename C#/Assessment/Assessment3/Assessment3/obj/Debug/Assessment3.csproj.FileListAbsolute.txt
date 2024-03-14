@@ -1,7 +1,0 @@
-C:\saidivyasree\infinite\training\C#\Assessment\Assessment3\Assessment3\obj\Debug\Assessment3.csproj.AssemblyReference.cache
-C:\saidivyasree\infinite\training\C#\Assessment\Assessment3\Assessment3\obj\Debug\Assessment3.csproj.CoreCompileInputs.cache
-C:\saidivyasree\infinite\training\C#\Assessment\Assessment3\Assessment3\bin\Debug\Assessment3.exe.config
-C:\saidivyasree\infinite\training\C#\Assessment\Assessment3\Assessment3\bin\Debug\Assessment3.exe
-C:\saidivyasree\infinite\training\C#\Assessment\Assessment3\Assessment3\bin\Debug\Assessment3.pdb
-C:\saidivyasree\infinite\training\C#\Assessment\Assessment3\Assessment3\obj\Debug\Assessment3.exe
-C:\saidivyasree\infinite\training\C#\Assessment\Assessment3\Assessment3\obj\Debug\Assessment3.pdb
