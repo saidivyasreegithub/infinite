@@ -128,7 +128,7 @@ INSERT INTO Students (Register_No, Name, Age, Qualification, Mobile_No, Mail_id,
 (7, 'Tom', 23, 'BCA', '8901234675', 'Tom@gmail.com', 'Pune', 'M')
  --7.Write a sql server query to display the Gender,Total no of male and female from the above relation
  
- select gender,count(*)
+ select gender,count(*) 'Total Males and Females'
  from Students
  group by gender
 
