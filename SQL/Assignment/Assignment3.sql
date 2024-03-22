@@ -84,17 +84,3 @@ select DATEDIFF(year,hiredate,getdate()) Experience
 from tblEMP where ename='miller'
 
 
-begin
-  declare @avgsalary float
-  select @avgsalary=sal from tblEmp 
- 
-   if(@avgsalary>0)
-     begin
-       set @avgsalary=avg(@avgsalary)
-	   print 'Employee average annual Salary is :'+ '  '+ cast(@avgsalary as varchar(5))
-	 end
-	 else 
-	  begin
-	   print 'ok salary'
-      end
-end
