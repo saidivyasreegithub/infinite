@@ -28,13 +28,14 @@ select empno,ename,sal,(sal/30) as DailySalary from tblEMP where ename ='jones'
 
 
 --8. Calculate the total monthly salary of all employees. 
-select sum(sal) as TotalMonthlySalary from tblEMP  
-
+WITH EMPDETAILS AS(
+SELECT * FROM tblEMP )
+SELECT ENAME, SAL/30 AS TOTAL_MONTSAL FROM EMPDETAILS
+ 
 --9. Print the average annual salary . 
-
-
-
-
+WITH EDETAILS AS(
+SELECT * FROM tblEMP)
+SELECT AVG(SAL) AS AVERAGE_SAL FROM EDETAILS;
 
 
 
