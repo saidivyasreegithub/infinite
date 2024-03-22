@@ -130,4 +130,5 @@ select m.ename  from tblEMP m where m.empno in
 										(select e.mgr_id from tblEMP E  
 										group by e.mgr_id 
 										having  count(*)>2)
-										
+				
+
