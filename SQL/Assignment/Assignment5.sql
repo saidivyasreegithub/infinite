@@ -11,7 +11,7 @@ use AssignmentDb
 
 create or alter proc getPayslips @empname varchar(20)
 as
-begin 
+begin
 	declare @HRA int,@DA int,@PF int,@IT int,@salary int
 	select @salary=sal from tblEMP where @empname=ename
 
@@ -48,3 +48,5 @@ end
 
 --execution:
 getPayslips @empname='smith'
+
+
