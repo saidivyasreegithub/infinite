@@ -44,23 +44,7 @@ select datename(weekday, '2001-08-08') as Birthday_Day_of_Week
 -- 3.	Write a query to display all employees information those who joined before 5 years in the current month
  
 --(Hint : If required update some HireDates in your EMP table of the assignment)
-select *
-from tblEMP
-where hiredate <= DATEADD(year, 5, DATEADD(month, DATEDIFF(month, 0, GETDATE()), 0))
---7369	SMITH	CLERK		7902	1975-12-17	800	   NULL	   20
---7499	ALLEN	SALESMAN	7698	1981-02-20	1600	300	   30
---7521	WARD	SALESMAN	7698	1976-02-22	1250	500	   30
---7566	JONES	MANAGER		7839	1981-04-02	2975	NULL	20
---7654	MARTIN	SALESMAN	7698	1976-09-28	1250	1400	30
---7698	BLAKE	MANAGER		7839	1981-05-01	2850	NULL	30
---7782	CLARK	MANAGER		7839	1981-06-09	2450	NULL	10
---7788	SCOTT	ANALYST		7566	1987-04-19	3000	NULL	20
---7839	KING	PRESIDENT	NULL	1981-11-17	5000	NULL	10
---7844	TURNER	SALESMAN	7698	1976-09-08	1500	0	    30
---7876	ADAMS	CLERK		7788	1982-05-23	1100	NULL	20
---7900	JAMES	CLERK		7698	1981-12-03	950	    NULL	30
---7902	FORD	ANALYST		7566	1981-12-03	3000	NULL	20
---7934	MILLER	CLERK		7782	1982-01-23	1300	NULL	10
+
  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- 4.	Create table Employee with empno, ename, sal, doj columns and perform the following operations in a single transaction
 --	a. First insert 3 rows 
@@ -173,3 +157,8 @@ FROM tblEMP
 --7900	JAMES	CLERK		950	    160
 --7902	FORD	ANALYST		3000	600
 --7934	MILLER	CLERK		1300	160
+
+SELECT *
+FROM tblEMP
+WHERE DATEADD(YEAR, 5, HireDate) <= GETDATE() 
+AND MONTH(HireDate) = MONTH(DATEADD(MONTH, 5*12, GETDATE()));
