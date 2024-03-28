@@ -1,5 +1,5 @@
 create database testdb
-
+use testdb
 
 --creating the books and inserting the books data:
 create table Books(
@@ -58,13 +58,15 @@ select * from customers
 
 --4.Display the Name for the customer from above customer table who live in same address
 --which has character o anywhere in address
-select name from customers
+select name,address from customers
 where address =
 				(SELECT address
 				from customers
 				where address LIKE '%o%'
 				group by address
 				having count(*) > 1)
+
+
 
 create table orders
 (
@@ -84,6 +86,8 @@ where  date in
 			from orders
 			group by date
 			having count(*)>1)
+
+
 --------------------------------------
 --creatin g employees and inserted the data:
 CREATE TABLE Employee (
@@ -132,5 +136,17 @@ INSERT INTO Students (Register_No, Name, Age, Qualification, Mobile_No, Mail_id,
  from Students
  group by gender
 
+ select gender, count(case  when gender='M' then 1 end) as 'Total_male',
+ count(case  when gender='F' then 1 end) as 'Total_Female'
+ from Students
+ group by Gender
 
+
+ select 'male' as label,
+ count(case  when gender='M' then 1 end) as value
+ from Students
+ union
+  select 'Female' as label,
+ count(case  when gender='F' then 1 end) as value
+ from Students
 

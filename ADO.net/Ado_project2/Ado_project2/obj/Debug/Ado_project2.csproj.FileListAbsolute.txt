@@ -1,0 +1,7 @@
+C:\saidivyasree\infinite\training\ADO.net\Ado_project2\Ado_project2\bin\Debug\Ado_project2.exe.config
+C:\saidivyasree\infinite\training\ADO.net\Ado_project2\Ado_project2\bin\Debug\Ado_project2.exe
+C:\saidivyasree\infinite\training\ADO.net\Ado_project2\Ado_project2\bin\Debug\Ado_project2.pdb
+C:\saidivyasree\infinite\training\ADO.net\Ado_project2\Ado_project2\obj\Debug\Ado_project2.csproj.AssemblyReference.cache
+C:\saidivyasree\infinite\training\ADO.net\Ado_project2\Ado_project2\obj\Debug\Ado_project2.csproj.CoreCompileInputs.cache
+C:\saidivyasree\infinite\training\ADO.net\Ado_project2\Ado_project2\obj\Debug\Ado_project2.exe
+C:\saidivyasree\infinite\training\ADO.net\Ado_project2\Ado_project2\obj\Debug\Ado_project2.pdb
