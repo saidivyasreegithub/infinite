@@ -1,6 +1,7 @@
 drop table tblEMP
 drop table tblDEPT
-
+use AssignmentDb
+select * from tblEmp
 
 --Creating Department details
 create table tblDEPT
@@ -25,7 +26,7 @@ sal float,
 comm int,
 deptno int foreign key references tblDEPT(deptno)
 )
-
+select * from tblEMP
 
 ---Inserting Employees Details
 insert into tblEMP(empno,ename,job,mgr_id,hiredate,sal,comm,deptno) values (7369,'SMITH','CLERK',7902,'17-DEC-80',800,null,20),
@@ -131,4 +132,5 @@ select m.ename  from tblEMP m where m.empno in
 										group by e.mgr_id 
 										having  count(*)>2)
 				
+
 
