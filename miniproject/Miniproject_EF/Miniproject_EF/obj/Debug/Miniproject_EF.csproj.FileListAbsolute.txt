@@ -1,0 +1,12 @@
+C:\saidivyasree\infinite\training\miniproject\Miniproject_EF\Miniproject_EF\bin\Debug\Miniproject_EF.exe.config
+C:\saidivyasree\infinite\training\miniproject\Miniproject_EF\Miniproject_EF\bin\Debug\Miniproject_EF.exe
+C:\saidivyasree\infinite\training\miniproject\Miniproject_EF\Miniproject_EF\bin\Debug\Miniproject_EF.pdb
+C:\saidivyasree\infinite\training\miniproject\Miniproject_EF\Miniproject_EF\bin\Debug\EntityFramework.dll
+C:\saidivyasree\infinite\training\miniproject\Miniproject_EF\Miniproject_EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\saidivyasree\infinite\training\miniproject\Miniproject_EF\Miniproject_EF\bin\Debug\EntityFramework.xml
+C:\saidivyasree\infinite\training\miniproject\Miniproject_EF\Miniproject_EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\saidivyasree\infinite\training\miniproject\Miniproject_EF\Miniproject_EF\obj\Debug\Miniproject_EF.csproj.AssemblyReference.cache
+C:\saidivyasree\infinite\training\miniproject\Miniproject_EF\Miniproject_EF\obj\Debug\Miniproject_EF.csproj.CoreCompileInputs.cache
+C:\saidivyasree\infinite\training\miniproject\Miniproject_EF\Miniproject_EF\obj\Debug\Miniproject_EF.csproj.CopyComplete
+C:\saidivyasree\infinite\training\miniproject\Miniproject_EF\Miniproject_EF\obj\Debug\Miniproject_EF.exe
+C:\saidivyasree\infinite\training\miniproject\Miniproject_EF\Miniproject_EF\obj\Debug\Miniproject_EF.pdb
