@@ -1,0 +1,27 @@
+﻿@model EkartApplication.Models.Customer
+@{
+    ViewData["Title"] = "HighestOrderCustomer";
+}
+
+<h1>HighestOrderCustomer</h1>
+
+<p>The customer who placed the highest order:</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Customer ID</th>
+            <th>Company Name</th>
+            <!-- Add other columns as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.CustomerId</td>
+            <td>@Model.CompanyName</td>
+            <!-- Add other cells as needed -->
+        </tr>
+    </tbody>
+</table>
+
+
